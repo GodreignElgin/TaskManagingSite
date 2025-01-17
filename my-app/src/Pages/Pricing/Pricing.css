@@ -1,0 +1,362 @@
+/* General Body Styling */
+body {
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Pricing Container Styling */
+.pricing-container {
+  padding: 20px;
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+}
+
+.pricing-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #f2f4f7; /* Primary color */
+}
+
+/* Team Size and Billing Cycle Styling */
+.team-size,
+.billing-cycle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-size label,
+.billing-cycle label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f2f4f7; /* Primary color */
+}
+
+#team-size {
+  margin-left: 10px;
+  width: 60px;
+}
+
+.billing-cycle button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f2f4f7; /* Primary color */
+  color: #0f1b2e; /* Secondary color */
+  border: 2px solid #f2f4f7; /* Primary color */
+}
+
+.billing-cycle button.active {
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+}
+
+/* Plan Card Styling */
+.plans {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.plan {
+  height: 100%;
+  border: 1px solid #0f1b2e; /* Secondary color */
+  border-radius: 8px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f4f7; /* Primary color */
+  color: #0f1b2e; /* Secondary color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plan h2 {
+  margin-bottom: 10px;
+  color: #051228;
+}
+
+.plan p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.plan ul {
+  text-align: left;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plan ul li {
+  margin: 5px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.plan ul li::before {
+  content: "✔ ";
+  color: #28a745;
+  position: absolute;
+  left: 0;
+}
+
+.plan button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* CTA Button Styling */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: 2px solid #f2f4f7; /* Primary color */
+}
+
+.cta-button:hover {
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+}
+
+/* Data Center Card Styling */
+.data-center-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 600px;
+  color: #0f1b2e; /* Secondary color */
+}
+
+.data-center-card h2 {
+  color: #333333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.data-center-card p {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.data-center-card button {
+  background-color: #0f1b2e; /* Secondary color */
+  border: none;
+  border-radius: 4px;
+  color: #f2f4f7; /* Primary color */
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+/* Features Table Styling */
+.features-table {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px; /* Adjust as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #0f1b2e; /* Secondary color */
+}
+
+.features-table h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.features-table p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: #0f1b2e; /* Secondary color */
+}
+
+table th {
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+/* Questions Section Styling */
+.questions-section {
+  background-color: #0f1b2e; /* Secondary color */
+  padding: 30px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 8px;
+  color: #f2f4f7; /* Primary color */
+}
+
+.questions-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ffffff; /* White color */
+}
+
+.questions-section p {
+  font-size: 1.125rem;
+  color: #ffffff; /* White color */
+}
+
+/* Footer Styling */
+.footer-container {
+  background-color: #0f1b2e; /* Secondary color */
+  color: #f2f4f7; /* Primary color */
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #051228; /* Primary color */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #f2f4f7; /* Primary color */
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+/* Data Center Card Styling */
+.data-center-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto; /* Center the card horizontally */
+  max-width: 600px;
+  color: #0f1b2e; /* Secondary color */
+  text-align: center; /* Center text inside the card */
+}
+/* General Plan Styling */
+.plan {
+  background-color: #f2f4f7; /* Primary color */
+  color: #0f1b2e; /* Secondary color */
+  border: 1px solid #0f1b2e; /* Secondary color */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect for Plans */
+.plan:hover {
+  transform: scale(1.05); /* Slightly enlarge the plan */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Individual Plan Specific Styles */
+.plan.free {
+  border-color: #0f1b2e; /* Blue border for Free plan */
+}
+
+.plan.standard {
+  border-color: #0f1b2e; /* Blue border for Standard plan */
+}
+
+.plan.premium {
+  border-color: #0f1b2e; /* Blue border for Premium plan */
+}
+
+.plan.enterprise {
+  border-color: #0f1b2e; /* Blue border for Enterprise plan */
+}
+
+/* Hover Effects for Individual Plans */
+.plan.free:hover {
+  background-color: #eaf4f4; /* Light blue background for Free plan */
+  border-color: #0f1b2e; /* Darker border on hover */
+}
+
+.plan.standard:hover {
+  background-color: #f4f4ea; /* Light yellow background for Standard plan */
+  border-color: #0f1b2e; /* Darker border on hover */
+}
+
+.plan.premium:hover {
+  background-color: #e8f4ff; /* Light blue background for Premium plan */
+  border-color: #0f1b2e; /* Darker border on hover */
+}
+
+.plan.enterprise:hover {
+  background-color: #f4f4f4; /* Light gray background for Enterprise plan */
+  border-color: #0f1b2e; /* Darker border on hover */
+}
+.data-center-card:hover {
+  transform: scale(1.02); /* Slightly enlarge the card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  border-color: #0f1b2e; /* Change border color on hover */
+  background-color: #f9f9f9; /* Slightly different background color on hover */
+}

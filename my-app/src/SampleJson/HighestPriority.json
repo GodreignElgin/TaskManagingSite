@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "taskName":"Task 1",
+        "taskDesc":"Task 1 description",
+        "priority":1,
+        "status":"To Do",
+        "dueDate":"10/10/2024",
+        "taskKey":"GMAS"
+    },
+    {
+        "id":2,
+        "taskName":"Task 2",
+        "taskDesc":"Task 2 description",
+        "priority":2,
+        "status":"To Doo",
+        "dueDate":"12/10/2024",
+        "taskKey":"GMAS"
+    },
+    {
+        "id":3,
+        "taskName":"Task 3",
+        "taskDesc":"Task 3 description",
+        "priority":3,
+        "status":"To Dooo",
+        "dueDate":"13/10/2024",
+        "taskKey":"GMAS" 
+    },
+    {
+        "id":4,
+        "taskName":"Task 4",
+        "taskDesc":"Task 4 description",
+        "priority":4,
+        "status":"To Doooo",
+        "dueDate":"14/10/2024",
+        "taskKey":"GMAS"        
+    },
+    {
+        "id":5,
+        "taskName":"Task 5",
+        "taskDesc":"Task 5 description",
+        "priority":5,
+        "status":"To Doooooo",
+        "dueDate":"15/10/2024",
+        "taskKey":"GMAS"
+    }
+]

@@ -1,0 +1,107 @@
+.upper {
+    height: 17vh;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.u-content {
+    height: 95%;
+    width: 80vh;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+}
+
+.u-logo {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 215, 215);
+}
+
+.u-logo-image {
+    width: 60%;
+    padding: 10px;
+    padding-right: 5px; /* Adjust this value as needed */
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%; /* Circular shape */
+    border: 2px solid black;
+}
+
+.u-inner-content {
+    height: 100%;
+    width: 75%;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-company-name {
+    font-size: larger;
+    font-family: satoshi-bold;
+    width: 95%;
+    height: 10%;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    align-items: center;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.u-company-name p {
+    padding-left: 1rem;
+    font-size: larger;
+    background-color: transparent;
+}
+
+.u-company-name .MuiInputBase-root {
+    padding-left: 1rem;
+    font-size: medium; /* Set to a smaller size */
+    width: 100%;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.u-company-desc {
+    font-size: smaller;
+    width: 95%;
+    height:20%;
+    padding-top: 5px;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.u-company-desc p {
+    padding-left: 1rem;
+}
+
+.u-company-editname {
+    background-color: transparent;
+    width: 95%;
+    height: 20%;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.u-company-editname button {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.u-company-editname button:hover {
+    background-color: rgb(170, 170, 170); /* Custom hover color */
+}

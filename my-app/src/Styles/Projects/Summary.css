@@ -1,0 +1,187 @@
+.project-summary-main{
+    width: 95%;
+    height: 100%;
+    align-items: center;
+}
+
+.project-summary-main-u1{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.summary-main-u1-greet{
+    font-size: 25px;
+    font-family: satoshi-bold;
+}
+
+.summary-main-u2-card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.summary-main-u2-card-left{
+    height: 50%;
+    border-radius: 50%;
+    color: white;
+    width: 18%;
+    background-color: rgb(79, 182, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-main-u2-card-right{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.summary-main-u2-card-right-u{
+    font-family: satoshi-bold;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.summary-main-u2-card-right-l{
+    color: white;
+}
+
+.project-summary-main-u2{
+    height: 7rem;
+    width: 100%;
+    /* background-color:rgba(4, 67, 0, 0.5) ; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-summary-main-u3{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-summary-main-u4{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.summary-main-u2-card{
+    height: 80%;
+    width: 23%;
+    border-radius: 10px;
+    background-color: #051228;
+    box-shadow: 3px 3px 10px 1px #231d6c;
+    /* border: 3px solid aquamarine; */
+    border-bottom: 3px solid aquamarine;
+    border-left: 3px solid aquamarine;
+}
+
+.summary-main-u3-card{
+    height: 96%;
+    width: 47.5%;
+    border-radius: 10px;
+    background-color: #051228;
+    box-shadow: 3px 3px 10px 1px #231d6c;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    border-bottom: 3px solid aquamarine;
+    border-left: 3px solid aquamarine;
+}
+
+.summary-main-u3-card-u{
+    width: 90%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.summary-main-u3-card-u-up{
+    font-size: 20px;
+    font-family: satoshi-bold;
+}
+
+.summary-main-u3-card-l {
+    width: 90%;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centering the PieChart horizontally */
+    align-items: center;    /* Centering the PieChart vertically */
+    padding: 0;
+    margin: 0;
+    overflow: visible;       /* Prevents overflow of the chart */
+    position: relative;
+}
+
+.summary-main-u4-card-l{
+    width: 90%;
+    height: 67%;
+    display: flex;
+    flex-direction: column; /* Centering the PieChart horizontally */
+    align-items: center;    /* Centering the PieChart vertically */
+    background-color: #051228;
+    /* box-shadow: 3px 3px 10px 1px #231d6c; */
+    border-radius: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    padding-bottom: 2px;
+    border: 2px solid aquamarine;
+    /* border-top: 3px solid aquamarine;
+    border-right: 3px solid aquamarine; */
+}
+
+.summary-main-u4-card-l::-webkit-scrollbar {
+    display: none; 
+}
+
+.summary-main-u3-card-l-list-card{
+    width: 99%;
+    background-color: #031b42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+    border-radius: 8px;
+    min-height: 30%;
+}
+
+.summary-u3-card-l-list-card-left{
+    width: auto;
+    padding-left: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.summary-u3-card-l-list-card-right{
+    width: auto;
+    padding-right: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:space-evenly;
+}
+
+.summary-u3-card-l-list-card-right-l{
+    color: red;
+}

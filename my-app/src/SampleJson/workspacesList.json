@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "name":"Enterprise Workspaces"
+    },
+    {
+        "id":2,
+        "name":"Non-Enterprise Workspaces"
+    },
+    {
+        "id":3,
+        "name":"Pending"
+    }
+]

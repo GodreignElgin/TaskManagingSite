@@ -1,0 +1,269 @@
+.rSideContent {
+    height: 100%;
+    width: 75%;
+    background-color: #001e52;
+    color: white;
+}
+
+.rSide-c {
+    height: 80%;
+    width: 87%;
+    background-color: #001e52;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;    
+}
+
+.rSide-c::-webkit-scrollbar {
+    display: none; 
+}
+
+.rSide-u {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #001e52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.rSide-u-l {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.rSide-u-l-u {
+    font-family: satoshi-bold;
+    font-size: larger;
+}
+
+.rSide-u-r {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.rSide-b {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rSide-b-card {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rSide-b-card-l {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.rSide-b-card-l-image {
+    height: 100%;
+    width: auto;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 80%;
+    width: auto;
+    object-fit: fill;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.rSide-b-card-l-content {
+    height: 100%;
+    width: 100%;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rSide-b-card-l-content-name{
+    font-family: satoshi-bold;
+    font-size: larger;
+}
+
+.rSide-b-card-r {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-u-content {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.w-u-content-q{
+    font-family: satoshi-bold;
+    font-size: larger;
+}
+
+.w-b-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.w-b-card {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w-b-card-image {
+    height: 100%;
+    width: auto;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.w-b-card-name {
+    padding-left: 1rem;
+    font-family: satoshi-bold;
+    font-size: larger;
+}
+
+.w-b-card-members {
+    padding-right: 1rem;
+    font-size: small;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.MuiPaginationItem-root {
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.MuiPaginationItem-root.Mui-selected {
+    background-color: black;
+    color: white;
+}
+
+.rSide-content-header{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #051228;
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    position: sticky;
+}
+
+.rSide-content-header::-webkit-scrollbar {
+    display: none; 
+}
+
+.rSide-content-card{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    background-color: #051228;
+}
+
+.rSide-content-card::-webkit-scrollbar {
+    display: none; 
+}
+
+.rSide-header-sno{
+    width: 3rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rSide-header-workspace-key{
+    width: 5rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rSide-header-workspace-name{
+    width: 10rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rSide-header-workspace-desc{
+    width: 43rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rSide-header-list-workspace{
+    width: 43rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rSide-header-task-desc{
+    width: 10rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.rSide-header-task-list{
+    width: 3rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

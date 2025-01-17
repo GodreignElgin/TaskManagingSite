@@ -1,0 +1,25 @@
+.list-outer{
+    width: 200vh;
+}
+.list-header {
+    width: 100%; /* Adjust width as necessary */
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+}
+
+.list-header::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.list-header-item {
+    width: 80rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey; /* Example background color */
+    border: 1px solid black; /* Example border */
+    box-sizing: border-box;
+}

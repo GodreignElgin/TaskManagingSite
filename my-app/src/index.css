@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'satoshi';
+    src: url('./Assets/fonts/Satoshi_Complete/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'satoshi-bold';
+    src: url('./Assets/fonts/Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'satoshi', sans-serif;
+}

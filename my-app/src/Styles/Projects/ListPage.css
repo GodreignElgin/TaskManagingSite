@@ -1,0 +1,243 @@
+.list-page-main{
+    height: 100%;
+    width: 100%;
+    background-color: #051228;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;    
+}
+
+.list-page-main::-webkit-scrollbar {
+    display: none; 
+}
+
+.list-page-list{
+    height: 100%;
+    width: 100%;
+    background-color: #051228;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+
+}
+
+
+/* Modify .list-header to prevent shrinking of items and ensure proper overflow */
+.list-header {
+    height: 10%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.create-task-below{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 1.3rem;
+
+}
+
+.list-header-card{
+    height: 100%;
+    width: 100%;
+    background-color: #051228;
+    display: flex;
+}
+
+.list-header-checkbox {
+    flex-shrink: 0;
+    height: 100%;
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: violet; */
+    min-width: 4rem; /* Ensure minimum width */
+}
+
+.list-header-key {
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    min-width: 6rem; /* Ensure minimum width */
+}
+
+.list-header-summary {
+    flex-shrink: 0;
+    height: 100%;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    min-width: 10rem; /* Ensure minimum width */
+}
+
+.list-header-status {
+    flex-shrink: 0;
+    height: 100%;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-header-assignee {
+    flex-shrink: 0;
+    height: 100%;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-header-duedate {
+    flex-shrink: 0;
+    height: 100%;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-header-priority {
+    flex-shrink: 0;
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-header-created {
+    height: 100%;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: turquoise; */
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+
+.list-content{
+    height: 100%;
+    width: 100%;
+    background-color: #051228;
+    display: flex;
+    flex-direction: column;
+        overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;    
+}
+
+.list-content-card{
+    height: 4rem;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 2px;
+    background-color: #001e52;
+}
+
+.list-content-card::-webkit-scrollbar {
+    display: none; 
+}
+
+.item-row-checked {
+    background-color: #e0f7fa;
+}
+
+.list-content-checkbox {
+    /* background-color: aqua; */
+    flex-shrink: 0;
+    height: 100%;
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 4rem; /* Ensure minimum width */
+}
+
+.list-content-key {
+    /* background-color: yellowgreen; */
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    min-width: 6rem; /* Ensure minimum width */
+}
+
+.list-content-summary {
+    /* background-color: violet; */
+    flex-shrink: 0;
+    height: 100%;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    min-width: 10rem; /* Ensure minimum width */
+}
+
+.list-content-status {
+    /* background-color: turquoise; */
+    flex-shrink: 0;
+    height: 100%;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-content-assignee {
+    /* background-color: tomato; */
+    flex-shrink: 0;
+    height: 100%;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-content-duedate {
+    /* background-color: thistle; */
+    flex-shrink: 0;
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-content-priority {
+    /* background-color: teal; */
+    flex-shrink: 0;
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    min-width: 8rem; /* Ensure minimum width */
+}
+
+.list-content-created {
+    /* background-color: tan; */
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    min-width: 15rem; /* Ensure minimum width */
+}

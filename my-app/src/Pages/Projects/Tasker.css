@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .tasker {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1 1 auto;
+  }
+  
+  .nav {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 0;
+  }
+  
+  .nav a:hover {
+    color: #007bff;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .auth-buttons .login,
+  .auth-buttons .try-free {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    flex: 1 1 auto;
+    margin-top: 10px;
+  }
+  
+  .auth-buttons .try-free {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons .try-free:hover {
+    background-color: #0056b3;
+  }
+  
+  .main {
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .task-board-preview {
+    margin: 20px 0;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 36px;
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  
+    .nav a {
+      margin: 0 10px;
+    }
+  
+    .auth-buttons .login,
+    .auth-buttons .try-free {
+      margin-left: 0;
+      flex: 1 1 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+    }
+  
+    .nav {
+      flex-direction: column;
+    }
+  
+    .nav a {
+      margin: 10px 0;
+    }
+  
+    .auth-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .auth-buttons .login,
+    .auth-buttons .try-free {
+      margin-left: 0;
+    }
+  }

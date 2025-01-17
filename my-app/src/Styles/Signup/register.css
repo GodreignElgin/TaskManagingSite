@@ -1,0 +1,116 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0e0e53;
+  }
+  
+  .register-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;  
+  }
+  
+  .register-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #616161;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .register-form .formGroup {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(73, 255, 73);
+    /* border-radius: 4px; */
+  }
+
+  .input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid transparent; /* Set border width */
+    /* border-radius: 20px; */
+    border-image: linear-gradient(to right, #6a11cb, #2575fc) 1;
+    /* border-radius: 200px; */
+  }
+  
+  .button {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px 20px 10px 20px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loginLink {
+    margin-top: 20px;
+    font: bolder;
+  }
+  
+  .loginLink a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .loginLink span{
+    color: #051228;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-input-container .input {
+    width: 100%;
+    padding-right: 30px; /* Enough space for the icon */
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px; /* Adjust as necessary */
+    cursor: pointer;
+  }
+  
+  .login-redirect:hover{
+    color: #004d9f;
+    font-family: satoshi-bold;
+  }
+
+  .register-title{
+    color: #051228;
+  }
+
+  .login-redirect-toggle{
+    margin-top: 1rem;
+  }

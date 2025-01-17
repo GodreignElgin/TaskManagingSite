@@ -1,0 +1,134 @@
+.footer {
+  background:#8ec6d4;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+  width: 100%;
+  max-width: 600px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.newsletter-input {
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.newsletter-button {
+  padding: 12px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  background: #f76c6c;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.newsletter-button:hover {
+  background: #e55b5b;
+  transform: scale(1.05);
+}
+
+.success-message {
+  color: #a1e15e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-privacy {
+  font-size: 0.9em;
+}
+
+.footer-privacy a {
+  color: #f76c6c;
+  text-decoration: none;
+}
+
+.footer-privacy a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  margin-top: 20px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f76c6c;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .footer-left, .footer-right {
+    max-width: 100%;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+}

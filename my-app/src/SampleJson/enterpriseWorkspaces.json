@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"name1",
+        "active":24,
+        "deactivated":2
+    },
+    {
+        "id":2,
+        "name":"name2",
+        "active":22,
+        "deactivated":22
+    },
+    {
+        "id":3,
+        "name":"name3",
+        "active":23,
+        "deactivated":3
+    },
+    {
+        "id":4,
+        "name":"name4",
+        "active":44,
+        "deactivated":4
+    },
+    {
+        "id":5,
+        "name":"name5",
+        "active":25,
+        "deactivated":5
+    }
+]

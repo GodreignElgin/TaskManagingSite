@@ -1,0 +1,21 @@
+.dropdown-menu-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .list-card-u-left-name {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .rename-input {
+    font-size: 1rem;
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .menu-icon {
+    margin-right: 8px;
+  }
+  
